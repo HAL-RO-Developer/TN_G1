@@ -77,11 +77,7 @@ void mpfmanage(int ope, MBX_PKT *packet)
 	}
 	else if (ope == RLS)
 	{
-		for (i = 0; addr[i] != packet; i++)
-		{
-		}
 		itoa((int)packet, adr, 16);
-
 		addr[i] = 0;
 	}
 	else if (ope == CLN)
